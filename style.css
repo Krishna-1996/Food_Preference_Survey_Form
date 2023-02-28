@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 20px;
+}
+
+th, td{
+    padding: 10px;
+}
+label{
+    margin-right: 20px;
+}
+button{
+    margin: 20px;
+    padding: 5px
+}
+ .init{
+    border: 2px solid;
+    margin: 3px;
+    font-family: Verdana, sans-serif ;
+}
+ .detail{
+    border: 2px solid;
+    margin: 2px;
+}
