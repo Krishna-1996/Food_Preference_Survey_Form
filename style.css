@@ -1,24 +1,63 @@
-body{
-    font-family: Arial, Helvetica, sans-serif ;
-    padding: 20px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 
-th, td{
-    padding: 10px;
+th,
+td {
+  padding: 10px;
 }
-label{
-    margin-right: 20px;
+label {
+  margin-right: 20px;
 }
-button{
-    margin: 20px;
-    padding: 5px
+button {
+  margin: 20px;
+  padding: 5px;
 }
- .init{
-    border: 2px solid;
-    margin: 3px;
-    font-family: Verdana, sans-serif ;
+.init {
+  border: 2px solid;
+  margin: 3px;
+  font-family: Verdana, sans-serif;
+  background-color: rgba(30, 30, 32, 0.822);
 }
- .detail{
-    border: 2px solid;
-    margin: 2px;
+.detail {
+  border: 2px solid;
+  margin: 2px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(126, 6, 224);
+  }
+  20% {
+    background-color: rgb(133, 110, 110);
+  }
+  30% {
+    background-color: rgb(119, 32, 32);
+  }
+  50% {
+    background-color: rgb(37, 17, 129);
+  }
+  60% {
+    background-color: rgb(6, 181, 204);
+  }
+  70% {
+    background-color: rgb(9, 211, 43);
+  }
+  80% {
+    background-color: rgb(235, 101, 12);
+  }
+  90% {
+    background-color: rgb(240, 29, 1);
+  }
+  100% {
+    background-color: rgb(252, 3, 198);
+  }
+}
+.anime {
+  animation-name: pulse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
 }
