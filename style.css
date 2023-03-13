@@ -17,7 +17,7 @@ button {
 .init {
   border: 2px solid;
   margin: 3px;
-  font-family: Verdana, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   background-color: rgba(30, 30, 32, 0.822);
 }
 .detail {
